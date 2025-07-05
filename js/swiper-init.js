@@ -1,7 +1,7 @@
 // ✅ Generic Swiper config function for reuse (without arrows)
 function initSwiper(selector) {
   return new Swiper(selector, {
-    slidesPerView: 1,
+    slidesPerView: 3,
     spaceBetween: 20,
 
     pagination: {
@@ -10,9 +10,9 @@ function initSwiper(selector) {
     },
 
     breakpoints: {
-      576: { slidesPerView: 2 },
-      768: { slidesPerView: 3 },
-      992: { slidesPerView: 4 },
+      576: { slidesPerView: 3 },
+      768: { slidesPerView: 4 },
+      992: { slidesPerView: 5 },
     },
   });
 }
